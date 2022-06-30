@@ -1,0 +1,6 @@
+---
+  deployment:
+    tasks: 
+        - export DEPLOYPATH=/home/oyebkdud/vintage-app.oyebolasimeon.cloud/
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp -R forms $DEPLOYPATH
